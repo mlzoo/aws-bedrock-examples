@@ -48,8 +48,6 @@ def understand_question(state: AgentState):
     state["understanding"] = f"{teacher_response}\n{student_response}"
 ```
 
-[Rest of the implementation sections follow the same pattern...]
-
 ## Workflow Orchestration
 
 Using langgraph to build the complete processing flow:
